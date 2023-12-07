@@ -7,9 +7,9 @@ import About from "./about";
 
 const Header = () => {
   const navigation = [
-    { name: "About", href: "" },
-    { name: "Services", href: "#" },
-    { name: "Our Work", href: "#" },
+    { name: "About", href: "#about" },
+    { name: "Services", href: "#services" },
+    { name: "Our Work", href: "#works" },
   ];
   return (
     <header>
@@ -17,7 +17,8 @@ const Header = () => {
         <div className="flex items-center justify-between py-5">
           <div className="flex flex-row items-center gap-8">
             <Link to="/">
-              <img className="w-auto h-8" src={Logo} alt="Logo" />
+              {/* <img className="w-auto h-8" src={Logo} alt="Logo" /> */}
+              <p className="h-8 font-semibold text-display-sm text-primary-600">Heaven Designs</p>
             </Link>
           </div>
           <div className="flex flex-row gap-6">

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Inteo`,
-    description: `Award winning architecture and interior design studio template. Made by Landify.`,
+    title: `Heaven designs`,
+    description: `Award winning architecture and interior design studio .`,
     siteUrl: `https://landify.design`, // Replace with your domain name
     author: `@landifydesign`, // Replace with your twitter handle
   },
