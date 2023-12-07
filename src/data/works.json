@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../images/works/work-1.png",
+    "title": "Villa Furnishing & Interior",
+    "description": "Elevate your villa with exquisite furnishing and interior design. Luxury living redefined."
+  },
+  {
+    "image": "../images/works/work-2.png",
+    "title": "Luxury Hotel Renovation",
+    "description": "Transforming luxury hotels with exquisite renovations, elevating guest experiences and ambiance"
+  },
+  {
+    "image": "../images/works/work-3.png",
+    "title": "Residence Swimming Pool",
+    "description": "Dive into luxury living with a meticulously designed residence swimming pool oasis."
+  }
+]
