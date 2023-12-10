@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
 
+
 import Logo from "../images/logos/logo-dark.svg";
 import Button from "./button";
 import About from "./about";
+import ContactForm from "../pages/contact";
 
 const Header = () => {
   const navigation = [
@@ -12,6 +14,9 @@ const Header = () => {
     { name: "Our Work", href: "#works" },
   ];
   return (
+ 
+ 
+
     <header>
       <div className="container mx-auto">
         <div className="flex items-center justify-between py-5">
@@ -32,11 +37,23 @@ const Header = () => {
                 </a>
               ))}
             </div>
-            <Button label="CONTACT US" link="#" />
+            <Link to="/contact">
+            <Button label="CONTACT US" link="contact" />
+
+            </Link>
+   
+   
+        
+        
+            
           </div>
         </div>
       </div>
+
+
     </header>
+
+
   );
 };
 
